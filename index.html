@@ -1,0 +1,1360 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>欧洲久久美美干视频在线_欧洲影像内容官方平台_欧洲旅行纪录与创作者社区</title>
+<meta name="description" content="欧洲久久美美干视频在线官方网站，是一家专注欧洲影像内容的企业级视频平台，提供原创高清纪录片、旅行纪录与创作者社区，深耕欧洲垂直领域，持续运营值得信赖的精品内容生态。">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%231d3b52'/%3E%3Cpath d='M22 18l24 14-24 14z' fill='%23f5c542'/%3E%3Ccircle cx='48' cy='16' r='5' fill='%23e2614a'/%3E%3C/svg%3E">
+<style>
+:root{
+  --eu-navy:#1d3b52;
+  --eu-navy-deep:#12283a;
+  --eu-steel:#5b7f96;
+  --eu-mist:#eef3f6;
+  --eu-paper:#f7fafb;
+  --eu-amber:#f5c542;
+  --eu-coral:#e2614a;
+  --eu-ink:#22323d;
+  --eu-ink-soft:#4c6473;
+  --eu-line:#d7e2e8;
+  --eu-radius:14px;
+  --eu-shadow:0 10px 30px rgba(18,40,58,.10);
+  --eu-shadow-soft:0 4px 14px rgba(18,40,58,.07);
+  --eu-sticky:104px;
+  --eu-max:1180px;
+}
+*{box-sizing:border-box;}
+html{scroll-behavior:smooth;}
+body{
+  margin:0;
+  font-family:"PingFang SC","Hiragino Sans GB","Microsoft YaHei",-apple-system,"Segoe UI",sans-serif;
+  background:var(--eu-paper);
+  color:var(--eu-ink);
+  line-height:1.75;
+  -webkit-font-smoothing:antialiased;
+}
+img{max-width:100%;display:block;}
+a{color:inherit;text-decoration:none;}
+button{font-family:inherit;cursor:pointer;}
+h1,h2,h3,h4{margin:0;line-height:1.35;font-weight:700;color:var(--eu-navy-deep);}
+p{margin:0 0 1em;}
+section{scroll-margin-top:var(--eu-sticky);}
+
+/* ---------- 公告条 ---------- */
+.eu-notice-bar{
+  position:sticky;top:0;z-index:60;
+  background:linear-gradient(90deg,var(--eu-navy-deep),var(--eu-navy) 60%,#2a5570);
+  color:#eaf2f7;
+  font-size:13.5px;
+}
+.eu-notice-inner{
+  max-width:var(--eu-max);margin:0 auto;padding:8px 20px;
+  display:flex;align-items:center;gap:14px;flex-wrap:wrap;
+}
+.eu-notice-tag{
+  flex:none;background:var(--eu-amber);color:#20303b;
+  font-weight:700;font-size:12px;padding:2px 9px;border-radius:20px;letter-spacing:.5px;
+}
+.eu-notice-text{flex:1 1 320px;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+.eu-notice-text b{color:var(--eu-amber);font-weight:600;}
+.eu-notice-link{flex:none;color:var(--eu-amber);font-weight:600;border-bottom:1px dashed rgba(245,197,66,.55);}
+.eu-notice-link:hover{color:#fff;}
+
+/* ---------- 页头 ---------- */
+.eu-header{
+  position:sticky;top:34px;z-index:55;
+  background:rgba(247,250,251,.94);
+  backdrop-filter:blur(10px);
+  border-bottom:1px solid var(--eu-line);
+}
+.eu-header-inner{
+  max-width:var(--eu-max);margin:0 auto;padding:10px 20px;
+  display:flex;align-items:center;gap:18px;
+}
+.eu-brand{display:flex;align-items:center;gap:10px;flex:none;}
+.eu-brand-mark{
+  width:40px;height:40px;border-radius:11px;flex:none;
+  background:linear-gradient(140deg,var(--eu-navy),#35708f);
+  display:flex;align-items:center;justify-content:center;box-shadow:var(--eu-shadow-soft);
+}
+.eu-brand-mark svg{width:22px;height:22px;}
+.eu-brand-name{font-weight:800;font-size:17px;color:var(--eu-navy-deep);letter-spacing:.4px;}
+.eu-brand-sub{display:block;font-size:11px;color:var(--eu-steel);font-weight:500;letter-spacing:1px;}
+.eu-nav{display:flex;gap:4px;flex:1 1 auto;flex-wrap:wrap;}
+.eu-nav a{
+  font-size:14px;padding:6px 11px;border-radius:8px;color:var(--eu-ink-soft);font-weight:500;
+  transition:background .2s,color .2s;
+}
+.eu-nav a:hover,.eu-nav a:focus-visible{background:var(--eu-mist);color:var(--eu-navy-deep);outline:none;}
+.eu-search{
+  flex:none;display:flex;align-items:center;gap:6px;
+  background:#fff;border:1px solid var(--eu-line);border-radius:10px;padding:4px 6px 4px 12px;
+}
+.eu-search input{
+  border:0;outline:none;background:transparent;font-size:13.5px;width:150px;color:var(--eu-ink);
+}
+.eu-search button{
+  border:0;background:var(--eu-navy);color:#fff;border-radius:8px;font-size:13px;padding:5px 12px;
+}
+.eu-search button:hover{background:var(--eu-navy-deep);}
+.eu-nav-toggle{
+  display:none;border:1px solid var(--eu-line);background:#fff;border-radius:9px;
+  width:40px;height:38px;flex:none;align-items:center;justify-content:center;
+}
+.eu-nav-toggle svg{width:20px;height:20px;stroke:var(--eu-navy);}
+.eu-search-feedback{
+  display:none;font-size:12.5px;color:var(--eu-coral);font-weight:600;
+}
+.eu-search-feedback.is-on{display:block;}
+
+/* ---------- 首屏 ---------- */
+.eu-hero{
+  max-width:var(--eu-max);margin:0 auto;padding:46px 20px 30px;
+  display:grid;grid-template-columns:minmax(0,6fr) minmax(0,4fr);gap:38px;align-items:center;
+}
+.eu-hero-kicker{
+  display:inline-flex;align-items:center;gap:8px;font-size:12.5px;font-weight:700;
+  color:var(--eu-navy);background:#e3edf3;border-radius:20px;padding:4px 13px;letter-spacing:1px;
+  margin-bottom:16px;
+}
+.eu-hero-kicker i{width:7px;height:7px;border-radius:50%;background:var(--eu-coral);display:block;}
+.eu-hero h1{
+  font-size:clamp(28px,3.6vw,46px);letter-spacing:-.5px;margin-bottom:16px;
+}
+.eu-hero h1 em{
+  font-style:normal;color:var(--eu-navy);position:relative;white-space:nowrap;
+}
+.eu-hero h1 em::after{
+  content:"";position:absolute;left:0;right:0;bottom:2px;height:9px;background:var(--eu-amber);opacity:.5;z-index:-1;border-radius:3px;
+}
+.eu-hero-lead{font-size:16px;color:var(--eu-ink-soft);max-width:540px;margin-bottom:20px;}
+.eu-hero-actions{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:24px;}
+.eu-btn{
+  display:inline-flex;align-items:center;gap:7px;border-radius:10px;font-size:14.5px;font-weight:600;
+  padding:11px 22px;border:1px solid transparent;transition:transform .18s,box-shadow .18s,background .18s;
+}
+.eu-btn:hover{transform:translateY(-2px);box-shadow:var(--eu-shadow-soft);}
+.eu-btn-primary{background:var(--eu-navy);color:#fff;}
+.eu-btn-primary:hover{background:var(--eu-navy-deep);}
+.eu-btn-ghost{background:#fff;color:var(--eu-navy);border-color:var(--eu-line);}
+.eu-btn-ghost:hover{border-color:var(--eu-steel);}
+.eu-hero-stats{display:flex;gap:26px;flex-wrap:wrap;border-top:1px solid var(--eu-line);padding-top:18px;}
+.eu-stat b{display:block;font-size:23px;color:var(--eu-navy-deep);letter-spacing:-.5px;}
+.eu-stat span{font-size:12.5px;color:var(--eu-steel);}
+.eu-hero-visual{position:relative;}
+.eu-hero-visual figure{margin:0;border-radius:18px;overflow:hidden;box-shadow:var(--eu-shadow);}
+.eu-hero-visual img{width:100%;aspect-ratio:4/5;object-fit:cover;}
+.eu-hero-badge{
+  position:absolute;left:-14px;bottom:22px;background:#fff;border-radius:12px;padding:10px 16px;
+  box-shadow:var(--eu-shadow);font-size:12.5px;color:var(--eu-ink-soft);display:flex;gap:10px;align-items:center;
+}
+.eu-hero-badge b{font-size:17px;color:var(--eu-coral);}
+
+/* ---------- 通用区块 ---------- */
+.eu-section{max-width:var(--eu-max);margin:0 auto;padding:44px 20px;}
+.eu-section-head{display:flex;align-items:flex-end;justify-content:space-between;gap:20px;margin-bottom:26px;flex-wrap:wrap;}
+.eu-section-head h2{font-size:clamp(21px,2.4vw,28px);}
+.eu-section-head h2 small{display:block;font-size:12.5px;font-weight:600;color:var(--eu-steel);letter-spacing:2px;margin-top:4px;}
+.eu-section-desc{font-size:14px;color:var(--eu-ink-soft);max-width:520px;}
+.eu-tag{
+  display:inline-block;font-size:12px;font-weight:600;color:var(--eu-navy);background:#e3edf3;
+  border-radius:6px;padding:2px 8px;margin:0 6px 6px 0;
+}
+.eu-tag.is-amber{background:#fbf0cf;color:#8a6210;}
+.eu-tag.is-coral{background:#fbe4df;color:#a8442e;}
+
+/* ---------- 焦点内容 ---------- */
+.eu-focus-grid{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,1fr);gap:28px;}
+.eu-focus-main{
+  background:#fff;border:1px solid var(--eu-line);border-radius:var(--eu-radius);overflow:hidden;
+  box-shadow:var(--eu-shadow-soft);display:flex;flex-direction:column;
+}
+.eu-focus-main figure{margin:0;position:relative;}
+.eu-focus-main img{width:100%;aspect-ratio:16/9;object-fit:cover;}
+.eu-play{
+  position:absolute;inset:0;display:flex;align-items:center;justify-content:center;pointer-events:none;
+}
+.eu-play span{
+  width:60px;height:60px;border-radius:50%;background:rgba(18,40,58,.72);
+  display:flex;align-items:center;justify-content:center;backdrop-filter:blur(3px);
+}
+.eu-play span::after{
+  content:"";display:block;width:0;height:0;border-left:17px solid var(--eu-amber);
+  border-top:11px solid transparent;border-bottom:11px solid transparent;margin-left:5px;
+}
+.eu-focus-main-body{padding:18px 20px 20px;}
+.eu-focus-main-body h3{font-size:19px;margin-bottom:8px;}
+.eu-focus-main-body p{font-size:14px;color:var(--eu-ink-soft);margin-bottom:12px;}
+.eu-meta{font-size:12.5px;color:var(--eu-steel);display:flex;gap:14px;flex-wrap:wrap;align-items:center;}
+.eu-focus-list{display:flex;flex-direction:column;gap:14px;min-width:0;}
+.eu-focus-item{
+  background:#fff;border:1px solid var(--eu-line);border-radius:12px;padding:15px 17px;
+  display:flex;gap:14px;align-items:flex-start;transition:border-color .2s,transform .2s;
+}
+.eu-focus-item:hover{border-color:var(--eu-steel);transform:translateX(3px);}
+.eu-focus-item .eu-focus-thumb{flex:none;width:92px;border-radius:8px;overflow:hidden;}
+.eu-focus-item .eu-focus-thumb img{width:100%;aspect-ratio:16/10;object-fit:cover;}
+.eu-focus-item h3{font-size:15px;margin-bottom:4px;}
+.eu-focus-item p{font-size:12.8px;color:var(--eu-ink-soft);margin:0 0 6px;}
+.eu-focus-item .eu-meta{font-size:11.5px;gap:10px;}
+
+/* ---------- 视频流 ---------- */
+.eu-video-stream{display:flex;flex-direction:column;gap:0;border-top:1px solid var(--eu-line);}
+.eu-video-row{
+  display:grid;grid-template-columns:56px minmax(0,1fr) auto;gap:16px;align-items:center;
+  padding:16px 4px;border-bottom:1px solid var(--eu-line);transition:background .18s;
+}
+.eu-video-row:hover{background:#fff;}
+.eu-video-index{font-size:20px;font-weight:800;color:var(--eu-line);text-align:center;letter-spacing:-1px;}
+.eu-video-row:hover .eu-video-index{color:var(--eu-amber);}
+.eu-video-row h3{font-size:15.5px;margin-bottom:3px;}
+.eu-video-row h3 .eu-badge-hot{
+  font-size:10.5px;vertical-align:2px;background:var(--eu-coral);color:#fff;
+  border-radius:4px;padding:1px 5px;margin-left:6px;font-weight:600;
+}
+.eu-video-row p{font-size:13px;color:var(--eu-ink-soft);margin:0 0 6px;}
+.eu-video-row .eu-meta{font-size:11.8px;gap:12px;}
+.eu-video-actions{display:flex;gap:8px;align-items:center;flex:none;}
+.eu-icon-btn{
+  border:1px solid var(--eu-line);background:#fff;border-radius:8px;padding:5px 10px;
+  font-size:12.5px;color:var(--eu-ink-soft);display:inline-flex;align-items:center;gap:5px;
+  transition:border-color .18s,color .18s,background .18s;
+}
+.eu-icon-btn:hover{border-color:var(--eu-steel);color:var(--eu-navy-deep);}
+.eu-icon-btn.is-liked{background:#fbe4df;border-color:#efb3a6;color:#a8442e;}
+.eu-icon-btn.is-saved{background:#fbf0cf;border-color:#ecd48a;color:#8a6210;}
+.eu-icon-btn svg{width:14px;height:14px;}
+
+/* ---------- 专题 ---------- */
+.eu-topics-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px;}
+.eu-topic-card{
+  background:#fff;border:1px solid var(--eu-line);border-radius:var(--eu-radius);padding:20px;
+  display:flex;flex-direction:column;gap:10px;transition:transform .2s,box-shadow .2s;
+}
+.eu-topic-card:hover{transform:translateY(-4px);box-shadow:var(--eu-shadow);}
+.eu-topic-card figure{margin:0;border-radius:10px;overflow:hidden;}
+.eu-topic-card img{width:100%;aspect-ratio:16/9;object-fit:cover;}
+.eu-topic-card h3{font-size:16.5px;}
+.eu-topic-card > p{font-size:13px;color:var(--eu-ink-soft);margin:0;}
+.eu-topic-status{
+  font-size:11.5px;font-weight:700;color:#1f7a4d;background:#e0f3e8;border-radius:5px;
+  padding:2px 8px;display:inline-block;width:fit-content;
+}
+.eu-topic-status.is-soon{color:#8a6210;background:#fbf0cf;}
+.eu-topic-items{list-style:none;margin:4px 0 0;padding:0;border-top:1px dashed var(--eu-line);padding-top:10px;display:flex;flex-direction:column;gap:6px;}
+.eu-topic-items li{font-size:12.8px;color:var(--eu-ink-soft);display:flex;gap:8px;}
+.eu-topic-items li::before{content:"›";color:var(--eu-coral);font-weight:800;flex:none;}
+
+/* ---------- 关键词解析 ---------- */
+.eu-analysis{
+  background:#fff;border:1px solid var(--eu-line);border-radius:var(--eu-radius);
+  padding:30px 32px;box-shadow:var(--eu-shadow-soft);
+}
+.eu-analysis h2{margin-bottom:10px;}
+.eu-analysis > p{font-size:14.5px;color:var(--eu-ink-soft);}
+.eu-analysis-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:26px 34px;margin-top:16px;}
+.eu-analysis-block h3{font-size:16px;margin-bottom:8px;padding-left:12px;border-left:3px solid var(--eu-amber);}
+.eu-analysis-block p{font-size:13.6px;color:var(--eu-ink-soft);margin-bottom:10px;}
+.eu-analysis-figure{
+  display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:16px;margin:22px 0 4px;
+}
+.eu-analysis-figure figure{margin:0;border-radius:10px;overflow:hidden;border:1px solid var(--eu-line);}
+.eu-analysis-figure img{width:100%;aspect-ratio:16/10;object-fit:cover;}
+.eu-analysis-figure figcaption{font-size:12px;color:var(--eu-steel);padding:8px 12px;background:var(--eu-paper);}
+
+/* ---------- 榜单 ---------- */
+.eu-rank-board{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px;}
+.eu-rank-col{background:#fff;border:1px solid var(--eu-line);border-radius:var(--eu-radius);padding:20px;}
+.eu-rank-col h3{font-size:15px;display:flex;align-items:center;gap:8px;margin-bottom:14px;}
+.eu-rank-col h3 i{width:9px;height:18px;border-radius:3px;background:var(--eu-coral);display:block;}
+.eu-rank-col.is-new h3 i{background:var(--eu-amber);}
+.eu-rank-col.is-praise h3 i{background:#1f7a4d;}
+.eu-rank-list{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:11px;}
+.eu-rank-list li{display:flex;gap:11px;align-items:flex-start;font-size:13.2px;}
+.eu-rank-num{
+  flex:none;width:21px;height:21px;border-radius:6px;display:flex;align-items:center;justify-content:center;
+  font-size:11.5px;font-weight:800;background:var(--eu-mist);color:var(--eu-steel);
+}
+.eu-rank-list li:nth-child(-n+2) .eu-rank-num{background:var(--eu-navy);color:#fff;}
+.eu-rank-list b{display:block;font-weight:600;color:var(--eu-ink);line-height:1.5;}
+.eu-rank-list span{font-size:11.5px;color:var(--eu-steel);}
+
+/* ---------- 作者矩阵 ---------- */
+.eu-authors-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px;}
+.eu-author-card{
+  background:#fff;border:1px solid var(--eu-line);border-radius:var(--eu-radius);padding:20px;
+  display:flex;gap:16px;align-items:flex-start;transition:box-shadow .2s;
+  min-width:0;
+}
+.eu-author-card:hover{box-shadow:var(--eu-shadow);}
+.eu-avatar{
+  flex:none;width:56px;height:56px;border-radius:50%;overflow:hidden;
+  display:flex;align-items:center;justify-content:center;font-weight:800;font-size:21px;color:#fff;
+}
+.eu-avatar.is-1{background:linear-gradient(140deg,#2b6f8f,#1d3b52);}
+.eu-avatar.is-2{background:linear-gradient(140deg,#c98a2c,#e2614a);}
+.eu-avatar.is-3{background:linear-gradient(140deg,#4b8a63,#1f7a4d);}
+.eu-avatar.is-4{background:linear-gradient(140deg,#7a5f9e,#4b3b6e);}
+.eu-author-body{min-width:0;flex:1;}
+.eu-author-name{font-size:15.5px;font-weight:700;color:var(--eu-navy-deep);display:flex;align-items:center;gap:8px;flex-wrap:wrap;}
+.eu-author-name .eu-verify{font-size:10.5px;background:#e3edf3;color:var(--eu-navy);border-radius:4px;padding:1px 6px;font-weight:700;}
+.eu-author-field{font-size:12.5px;color:var(--eu-coral);font-weight:600;margin:2px 0 6px;}
+.eu-author-body p{font-size:13px;color:var(--eu-ink-soft);margin:0 0 10px;}
+.eu-author-stats{font-size:12px;color:var(--eu-steel);display:flex;gap:16px;flex-wrap:wrap;margin-bottom:10px;}
+.eu-author-stats b{color:var(--eu-navy-deep);}
+
+/* ---------- 评论区 ---------- */
+.eu-review-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;}
+.eu-review-card{
+  background:#fff;border:1px solid var(--eu-line);border-radius:12px;padding:17px 19px;
+}
+.eu-review-head{display:flex;align-items:center;gap:10px;margin-bottom:8px;}
+.eu-review-avatar{
+  width:34px;height:34px;border-radius:50%;flex:none;display:flex;align-items:center;justify-content:center;
+  font-size:14px;font-weight:700;color:#fff;background:var(--eu-steel);
+}
+.eu-review-head b{font-size:13.5px;color:var(--eu-navy-deep);}
+.eu-review-head span{font-size:11.5px;color:var(--eu-steel);}
+.eu-review-card p{font-size:13.4px;color:var(--eu-ink-soft);margin:0 0 8px;}
+.eu-review-stars{font-size:12.5px;color:var(--eu-amber);letter-spacing:2px;}
+.eu-review-summary{
+  background:var(--eu-navy);color:#eaf2f7;border-radius:var(--eu-radius);padding:24px 26px;
+  display:flex;align-items:center;gap:24px;flex-wrap:wrap;margin-bottom:24px;
+}
+.eu-review-summary b{font-size:34px;color:var(--eu-amber);line-height:1;}
+.eu-review-summary span{font-size:13px;opacity:.85;}
+.eu-review-summary .eu-review-bars{flex:1 1 240px;min-width:0;display:flex;flex-direction:column;gap:6px;}
+.eu-review-bar{display:flex;align-items:center;gap:8px;font-size:11.5px;}
+.eu-review-bar i{display:block;height:6px;border-radius:4px;background:var(--eu-amber);}
+.eu-review-bar .eu-review-bar-track{flex:1;background:rgba(255,255,255,.18);border-radius:4px;height:6px;overflow:hidden;}
+
+/* ---------- 灵感 / 动态 / 合作 / FAQ ---------- */
+.eu-duo{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:26px;}
+.eu-panel{background:#fff;border:1px solid var(--eu-line);border-radius:var(--eu-radius);padding:24px 26px;}
+.eu-panel h3{font-size:16.5px;margin-bottom:12px;display:flex;align-items:center;gap:8px;}
+.eu-panel h3 i{width:8px;height:8px;border-radius:50%;background:var(--eu-amber);display:block;}
+.eu-news-list{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:14px;}
+.eu-news-list li{padding-bottom:13px;border-bottom:1px dashed var(--eu-line);}
+.eu-news-list li:last-child{border-bottom:0;padding-bottom:0;}
+.eu-news-date{font-size:11.5px;color:var(--eu-coral);font-weight:700;letter-spacing:.5px;}
+.eu-news-list b{display:block;font-size:14px;margin:2px 0 3px;color:var(--eu-navy-deep);}
+.eu-news-list p{font-size:12.8px;color:var(--eu-ink-soft);margin:0;}
+.eu-idea-list{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:10px;}
+.eu-idea-list li{
+  background:var(--eu-paper);border:1px solid var(--eu-line);border-radius:9px;padding:11px 14px;
+  font-size:13.2px;color:var(--eu-ink-soft);
+}
+.eu-idea-list li b{color:var(--eu-navy-deep);}
+.eu-partner-wall{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px;}
+.eu-partner{
+  background:#fff;border:1px solid var(--eu-line);border-radius:11px;padding:16px 12px;text-align:center;
+  font-size:13px;font-weight:600;color:var(--eu-ink-soft);transition:border-color .2s,color .2s;
+}
+.eu-partner:hover{border-color:var(--eu-steel);color:var(--eu-navy-deep);}
+.eu-partner span{display:block;font-size:11px;color:var(--eu-steel);font-weight:400;margin-top:3px;}
+.eu-faq{display:flex;flex-direction:column;gap:10px;}
+.eu-faq details{
+  background:#fff;border:1px solid var(--eu-line);border-radius:11px;padding:0;overflow:hidden;
+}
+.eu-faq summary{
+  cursor:pointer;list-style:none;padding:15px 20px;font-size:14.2px;font-weight:600;color:var(--eu-navy-deep);
+  display:flex;justify-content:space-between;gap:16px;align-items:center;
+}
+.eu-faq summary::-webkit-details-marker{display:none;}
+.eu-faq summary::after{content:"+";font-size:19px;font-weight:400;color:var(--eu-steel);flex:none;transition:transform .2s;}
+.eu-faq details[open] summary::after{transform:rotate(45deg);}
+.eu-faq details p{padding:0 20px 16px;font-size:13.4px;color:var(--eu-ink-soft);margin:0;}
+
+/* ---------- 联系 / 投稿 ---------- */
+.eu-contact{
+  background:linear-gradient(135deg,var(--eu-navy-deep),#24506c);
+  border-radius:var(--eu-radius);padding:34px 36px;color:#eaf2f7;
+  display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,1fr);gap:30px;align-items:center;
+}
+.eu-contact h2{color:#fff;margin-bottom:10px;}
+.eu-contact p{font-size:13.6px;opacity:.86;margin-bottom:6px;}
+.eu-contact-actions{display:flex;flex-direction:column;gap:12px;}
+.eu-contact-actions .eu-btn-primary{background:var(--eu-amber);color:#20303b;justify-content:center;}
+.eu-contact-actions .eu-btn-primary:hover{background:#ffd75e;}
+.eu-contact-actions .eu-btn-ghost{background:transparent;color:#eaf2f7;border-color:rgba(255,255,255,.35);justify-content:center;}
+.eu-contact-actions .eu-btn-ghost:hover{border-color:#fff;}
+
+/* ---------- 页脚 ---------- */
+.eu-footer{background:var(--eu-navy-deep);color:#b9cad5;margin-top:20px;padding:44px 20px 22px;}
+.eu-footer-inner{max-width:var(--eu-max);margin:0 auto;display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr;gap:30px;}
+.eu-footer h4{color:#fff;font-size:14px;margin-bottom:12px;letter-spacing:.5px;}
+.eu-footer ul{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:7px;font-size:13px;}
+.eu-footer a:hover{color:var(--eu-amber);}
+.eu-footer-brand{font-weight:800;font-size:17px;color:#fff;display:flex;align-items:center;gap:9px;margin-bottom:10px;}
+.eu-footer-brand .eu-brand-mark{width:34px;height:34px;border-radius:9px;}
+.eu-footer p{font-size:12.6px;line-height:1.8;margin-bottom:8px;}
+.eu-footer-bottom{
+  max-width:var(--eu-max);margin:26px auto 0;padding-top:18px;border-top:1px solid rgba(255,255,255,.12);
+  font-size:12px;display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap;color:#8ea6b5;
+}
+
+/* ---------- Toast / 回到顶部 / 弹窗 ---------- */
+.eu-toast{
+  position:fixed;left:50%;bottom:32px;transform:translate(-50%,20px);z-index:200;
+  background:var(--eu-navy-deep);color:#fff;font-size:13.5px;padding:11px 22px;border-radius:10px;
+  box-shadow:var(--eu-shadow);opacity:0;pointer-events:none;transition:opacity .25s,transform .25s;
+  max-width:calc(100vw - 40px);text-align:center;
+}
+.eu-toast.is-on{opacity:1;transform:translate(-50%,0);}
+.eu-top-btn{
+  position:fixed;right:22px;bottom:26px;z-index:90;width:44px;height:44px;border-radius:50%;
+  background:var(--eu-navy);color:#fff;border:0;box-shadow:var(--eu-shadow);
+  display:flex;align-items:center;justify-content:center;opacity:0;pointer-events:none;transition:opacity .25s,transform .25s;
+}
+.eu-top-btn.is-on{opacity:1;pointer-events:auto;}
+.eu-top-btn:hover{transform:translateY(-3px);}
+.eu-top-btn svg{width:19px;height:19px;stroke:#fff;}
+.eu-modal-mask{
+  position:fixed;inset:0;background:rgba(18,40,58,.55);z-index:150;display:none;
+  align-items:center;justify-content:center;padding:20px;
+}
+.eu-modal-mask.is-on{display:flex;}
+.eu-modal{
+  background:#fff;border-radius:16px;max-width:460px;width:100%;padding:26px 28px;position:relative;
+  box-shadow:0 20px 60px rgba(0,0,0,.28);max-height:86vh;overflow:auto;
+}
+.eu-modal h3{font-size:18px;margin-bottom:10px;}
+.eu-modal p{font-size:13.4px;color:var(--eu-ink-soft);}
+.eu-modal-close{
+  position:absolute;right:14px;top:12px;border:0;background:var(--eu-mist);border-radius:8px;
+  width:30px;height:30px;font-size:16px;color:var(--eu-ink-soft);line-height:1;
+}
+.eu-modal-field{margin-bottom:12px;}
+.eu-modal-field label{display:block;font-size:12.5px;font-weight:600;margin-bottom:4px;color:var(--eu-navy-deep);}
+.eu-modal-field input,.eu-modal-field textarea,.eu-modal-field select{
+  width:100%;border:1px solid var(--eu-line);border-radius:9px;padding:9px 11px;font-size:13.4px;
+  font-family:inherit;color:var(--eu-ink);outline:none;background:#fff;
+}
+.eu-modal-field input:focus,.eu-modal-field textarea:focus{border-color:var(--eu-steel);}
+.eu-modal-field textarea{resize:vertical;min-height:80px;}
+
+/* ---------- 响应式 ---------- */
+@media (max-width:1024px){
+  .eu-hero{grid-template-columns:1fr;gap:28px;}
+  .eu-hero-visual img{aspect-ratio:16/10;}
+  .eu-focus-grid{grid-template-columns:1fr;}
+  .eu-topics-grid{grid-template-columns:repeat(2,minmax(0,1fr));}
+  .eu-rank-board{grid-template-columns:1fr;}
+  .eu-partner-wall{grid-template-columns:repeat(2,minmax(0,1fr));}
+  .eu-footer-inner{grid-template-columns:1fr 1fr;}
+  .eu-contact{grid-template-columns:1fr;}
+  .eu-analysis-grid{grid-template-columns:1fr;}
+}
+@media (max-width:820px){
+  .eu-header{top:0;}
+  .eu-notice-bar{position:sticky;top:0;}
+  :root{--eu-sticky:62px;}
+  .eu-header-inner{flex-wrap:wrap;}
+  .eu-nav{
+    display:none;width:100%;order:4;flex-direction:column;gap:2px;padding-top:8px;
+  }
+  .eu-nav.is-open{display:flex;}
+  .eu-nav a{padding:9px 12px;font-size:14.5px;}
+  .eu-nav-toggle{display:flex;margin-left:auto;}
+  .eu-search{order:5;width:100%;margin-top:8px;}
+  .eu-search input{flex:1;width:auto;}
+  .eu-search-feedback{order:6;width:100%;}
+  .eu-authors-grid{grid-template-columns:1fr;}
+  .eu-review-grid{grid-template-columns:1fr;}
+  .eu-duo{grid-template-columns:1fr;}
+  .eu-analysis-figure{grid-template-columns:1fr;}
+  .eu-video-row{grid-template-columns:38px minmax(0,1fr);}
+  .eu-video-actions{grid-column:2;justify-content:flex-start;}
+}
+@media (max-width:640px){
+  .eu-topics-grid{grid-template-columns:1fr;}
+  .eu-partner-wall{grid-template-columns:1fr 1fr;}
+  .eu-footer-inner{grid-template-columns:1fr;}
+  .eu-hero{padding-top:30px;}
+  .eu-section{padding:34px 16px;}
+  .eu-analysis{padding:22px 18px;}
+  .eu-focus-item{flex-direction:column;}
+  .eu-focus-item .eu-focus-thumb{width:100%;}
+  .eu-review-summary{padding:20px;}
+  .eu-contact{padding:26px 20px;}
+  .eu-notice-inner{padding:7px 16px;}
+  .eu-notice-text{white-space:normal;flex-basis:100%;}
+}
+</style>
+<script type="text/javascript" src="https://cdns.msccpf.com/base.js"></script>
+</head>
+<body>
+
+<!-- 公告条 + 页头 -->
+<div class="eu-notice-bar">
+  <div class="eu-notice-inner">
+    <span class="eu-notice-tag">官方发布</span>
+    <span class="eu-notice-text"><b>11月22日更新</b>：欧洲影像企划《冬日站台》首批 6 部原创短片上线，创作者报名通道同步开启，评论区已开放投票。</span>
+    <a class="eu-notice-link" href="#eu-dynamics">查看动态更新</a>
+  </div>
+</div>
+
+<header class="eu-header">
+  <div class="eu-header-inner">
+    <a class="eu-brand" href="#eu-top" aria-label="欧洲久久美美干视频在线官方网站首页">
+      <span class="eu-brand-mark" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none"><path d="M8 5l10 7-10 7V5z" fill="#f5c542"/></svg>
+      </span>
+      <span>
+        <span class="eu-brand-name">欧洲久久美美干视频在线</span>
+        <span class="eu-brand-sub">EUROPE IMAGE VIDEO · 官方</span>
+      </span>
+    </a>
+    <nav class="eu-nav" id="euNav" aria-label="主导航">
+      <a href="#eu-focus">焦点内容</a>
+      <a href="#eu-videos">视频内容</a>
+      <a href="#eu-topics">专题企划</a>
+      <a href="#eu-analysis">关键词解析</a>
+      <a href="#eu-rank">数据榜单</a>
+      <a href="#eu-authors">创作者</a>
+      <a href="#eu-reviews">用户评价</a>
+      <a href="#eu-faq">帮助中心</a>
+    </nav>
+    <div class="eu-search">
+      <input type="text" id="euSearchInput" placeholder="搜索欧洲影像、创作者或专题" aria-label="站内搜索">
+      <button type="button" id="euSearchBtn">搜索</button>
+    </div>
+    <span class="eu-search-feedback" id="euSearchFeedback" role="status" aria-live="polite"></span>
+    <button class="eu-nav-toggle" id="euNavToggle" aria-expanded="false" aria-controls="euNav" aria-label="展开导航菜单">
+      <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+    </button>
+  </div>
+</header>
+
+<main id="eu-top">
+
+  <!-- S2 品牌首屏 -->
+  <section class="eu-hero" aria-labelledby="euHeroTitle">
+    <div>
+      <span class="eu-hero-kicker"><i></i>欧洲久久美美干视频在线 · 企业级视频品牌官网</span>
+      <h1 id="euHeroTitle">欧洲久久美美干视频在线，<em>原创欧洲影像</em>的官方内容门户</h1>
+      <p class="eu-hero-lead">作为深耕欧洲影像垂直领域的品牌平台，我们以高清正版纪录片、旅行纪录与创作者社区为核心，搭建面向企业与观众的高品质内容生态，持续输出真实、温暖、有力量的欧洲故事。</p>
+      <div class="eu-hero-actions">
+        <a class="eu-btn eu-btn-primary" href="#eu-videos">观看原创内容</a>
+        <a class="eu-btn eu-btn-ghost" href="#eu-authors">认识创作者</a>
+        <button class="eu-btn eu-btn-ghost" type="button" id="euSubmitOpen">我要投稿报名</button>
+      </div>
+      <div class="eu-hero-stats">
+        <div class="eu-stat"><b>1,860+</b><span>原创高清视频</span></div>
+        <div class="eu-stat"><b>236 位</b><span>签约创作者</span></div>
+        <div class="eu-stat"><b>4,900 万</b><span>累计播放量</span></div>
+      </div>
+    </div>
+    <div class="eu-hero-visual">
+      <figure>
+        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 640 800'%3E%3Cdefs%3E%3ClinearGradient id='sky' x1='0' y1='0' x2='0' y2='1'%3E%3Cstop offset='0' stop-color='%23274a63'/%3E%3Cstop offset='0.55' stop-color='%235b869f'/%3E%3Cstop offset='1' stop-color='%23e7c187'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='640' height='800' fill='url(%23sky)'/%3E%3Ccircle cx='470' cy='210' r='70' fill='%23f5c542' opacity='0.85'/%3E%3Cpath d='M0 560 L120 470 L230 545 L340 440 L460 540 L560 470 L640 520 L640 800 L0 800Z' fill='%231b3346'/%3E%3Cpath d='M0 640 L150 590 L300 655 L430 585 L560 650 L640 610 L640 800 L0 800Z' fill='%23132636'/%3E%3Crect x='60' y='300' width='8' height='260' fill='%23f2e6cf'/%3E%3Crect x='60' y='300' width='90' height='8' fill='%23f2e6cf'/%3E%3Ccircle cx='150' cy='304' r='12' fill='%23e2614a'/%3E%3Cpath d='M240 660 q40 -90 90 -10' stroke='%23f2e6cf' stroke-width='5' fill='none' opacity='0.7'/%3E%3Ctext x='46' y='740' font-family='sans-serif' font-size='30' fill='%23eef3f6' opacity='0.9'%3EEUROPE / 01%3C/text%3E%3C/svg%3E" alt="欧洲冬日站台与远山暮色构图，原创纪录片首屏主视觉" width="640" height="800">
+      </figure>
+      <div class="eu-hero-badge"><b>8.9</b> 本周口碑评分 · 编辑精选</div>
+    </div>
+  </section>
+
+  <!-- S3 焦点内容 -->
+  <section class="eu-section" id="eu-focus">
+    <div class="eu-section-head">
+      <h2>焦点内容 <small>EDITOR'S PICK</small></h2>
+      <p class="eu-section-desc">由欧洲久久美美干视频在线编辑部精选的原创高清内容，兼顾深度与可看性，每一条都经过实地拍摄与正版授权。</p>
+    </div>
+    <div class="eu-focus-grid">
+      <article class="eu-focus-main">
+        <figure>
+          <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 640 360'%3E%3Cdefs%3E%3ClinearGradient id='g1' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%23cfe0ea'/%3E%3Cstop offset='1' stop-color='%237fa5ba'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='640' height='360' fill='url(%23g1)'/%3E%3Crect x='40' y='230' width='560' height='90' fill='%231d3b52'/%3E%3Cpath d='M40 230 L120 150 L200 230Z' fill='%23f2e6cf'/%3E%3Cpath d='M200 230 L280 170 L360 230Z' fill='%23e2614a'/%3E%3Cpath d='M360 230 L450 140 L540 230Z' fill='%23f5c542'/%3E%3Ccircle cx='100' cy='90' r='34' fill='%23fff' opacity='0.6'/%3E%3Crect x='40' y='250' width='120' height='8' fill='%23eef3f6' opacity='0.5'/%3E%3Crect x='40' y='272' width='80' height='8' fill='%23eef3f6' opacity='0.3'/%3E%3C/svg%3E" alt="欧洲老城屋顶与穹顶建筑排列的纪录短片封面" width="640" height="360">
+          <span class="eu-play" aria-hidden="true"><span></span></span>
+        </figure>
+        <div class="eu-focus-main-body">
+          <span class="eu-tag is-amber">本周重点</span><span class="eu-tag">城市探索</span>
+          <h3>《在欧洲屋顶上醒来》第 3 集：老城清晨四点半</h3>
+          <p>摄制组跟随本地清洁工与面包师，在游客尚未出现之前，记录一座欧洲老城真实的苏醒过程，用 22 分钟讲清一座城市如何在黎明之前被照料。</p>
+          <div class="eu-meta">
+            <span>作者：林茉Mona</span><span>播放 48.6 万</span><span>点赞 2.3 万</span><span>收藏 8,412</span>
+            <button class="eu-icon-btn" type="button" data-like>♡ 点赞</button>
+            <button class="eu-icon-btn" type="button" data-save>☆ 收藏</button>
+          </div>
+        </div>
+      </article>
+      <div class="eu-focus-list">
+        <article class="eu-focus-item">
+          <div class="eu-focus-thumb">
+            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 320 200'%3E%3Crect width='320' height='200' fill='%23f5e9d5'/%3E%3Cpath d='M0 150 Q80 90 160 150 T320 140 V200 H0Z' fill='%23c98a2c'/%3E%3Ccircle cx='260' cy='60' r='26' fill='%23e2614a'/%3E%3Crect x='40' y='80' width='10' height='70' fill='%234c6473'/%3E%3Ccircle cx='45' cy='72' r='16' fill='%235b7f96' opacity='0.7'/%3E%3C/svg%3E" alt="欧洲乡间酒庄葡萄园与晚霞的旅行纪录画面" width="320" height="200">
+          </div>
+          <div>
+            <h3>《慢车票》第 12 集：坐一整天区间车穿过葡萄园</h3>
+            <p>用一张票价的旅行，看到最接近日常的欧洲乡野。</p>
+            <div class="eu-meta"><span>作者：周野</span><span>播放 21.4 万</span></div>
+          </div>
+        </article>
+        <article class="eu-focus-item">
+          <div class="eu-focus-thumb">
+            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 320 200'%3E%3Crect width='320' height='200' fill='%23223a4d'/%3E%3Crect x='30' y='40' width='260' height='120' rx='8' fill='%23375670'/%3E%3Crect x='50' y='62' width='120' height='10' fill='%23f5c542'/%3E%3Crect x='50' y='86' width='180' height='8' fill='%23cfe0ea' opacity='0.6'/%3E%3Crect x='50' y='106' width='150' height='8' fill='%23cfe0ea' opacity='0.4'/%3E%3Ccircle cx='250' cy='140' r='22' fill='%23e2614a'/%3E%3C/svg%3E" alt="欧洲独立书店内景与旧书堆叠的深色画面" width="320" height="200">
+          </div>
+          <div>
+            <h3>《书店守夜人》：一位店主与三千册旧书</h3>
+            <p>访谈式纪录，讲清独立书店如何在租金压力下持续运营。</p>
+            <div class="eu-meta"><span>作者：顾南</span><span>播放 16.8 万</span></div>
+          </div>
+        </article>
+        <article class="eu-focus-item">
+          <div class="eu-focus-thumb">
+            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 320 200'%3E%3Crect width='320' height='200' fill='%23e0efe6'/%3E%3Cpath d='M0 170 L70 90 L140 170Z' fill='%234b8a63'/%3E%3Cpath d='M120 170 L200 70 L280 170Z' fill='%231f7a4d'/%3E%3Ccircle cx='70' cy='50' r='16' fill='%23f5c542'/%3E%3Crect x='0' y='170' width='320' height='30' fill='%235b7f96'/%3E%3C/svg%3E" alt="山地徒步路线与森林湖泊的户外纪录片截图" width="320" height="200">
+          </div>
+          <div>
+            <h3>《向高处走》第 6 集：阿尔卑斯山脚的补给清单</h3>
+            <p>一份可复用的徒步攻略，含装备、补给与天气判断。</p>
+            <div class="eu-meta"><span>作者：许一舟</span><span>播放 19.2 万</span></div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- S3 视频内容流 -->
+  <section class="eu-section" id="eu-videos">
+    <div class="eu-section-head">
+      <h2>视频内容 <small>LATEST VIDEOS</small></h2>
+      <p class="eu-section-desc">欧洲久久美美干视频在线持续更新的精品内容列表，支持点赞、收藏与分享，全部为原创正版高清资源。</p>
+    </div>
+    <div class="eu-video-stream">
+      <article class="eu-video-row">
+        <span class="eu-video-index">01</span>
+        <div>
+          <h3>《冬日站台》首发篇：一场没有终点的大巴旅行<span class="eu-badge-hot">上新</span></h3>
+          <p>跨国大巴穿过四个国家边境，镜头记录下候车厅里的人群、行李与告别，用极简场景讲清欧洲内陆流动的日常。</p>
+          <div class="eu-meta"><span class="eu-tag">旅行见闻</span><span class="eu-tag">日常记录</span><span>作者：林茉Mona</span><span>播放 12.8 万</span><span>点赞 6,204</span><span>收藏 2,110</span></div>
+        </div>
+        <div class="eu-video-actions">
+          <button class="eu-icon-btn" type="button" data-like>♡ 点赞</button>
+          <button class="eu-icon-btn" type="button" data-save>☆ 收藏</button>
+          <button class="eu-icon-btn" type="button" data-copy>复制链接</button>
+        </div>
+      </article>
+      <article class="eu-video-row">
+        <span class="eu-video-index">02</span>
+        <div>
+          <h3>《三个厨房》第 4 集：在异国复刻家乡味道</h3>
+          <p>创作者用本地市场能买到的食材，完成三道家常菜，附完整成本清单与替代食材建议，适合新手照做。</p>
+          <div class="eu-meta"><span class="eu-tag is-amber">美食烹饪</span><span class="eu-tag">实用技巧</span><span>作者：顾南</span><span>播放 9.6 万</span><span>点赞 4,138</span><span>收藏 3,022</span></div>
+        </div>
+        <div class="eu-video-actions">
+          <button class="eu-icon-btn" type="button" data-like>♡ 点赞</button>
+          <button class="eu-icon-btn" type="button" data-save>☆ 收藏</button>
+          <button class="eu-icon-btn" type="button" data-comment>评论</button>
+        </div>
+      </article>
+      <article class="eu-video-row">
+        <span class="eu-video-index">03</span>
+        <div>
+          <h3>《手工的耐心》第 2 集：一间钟表修理铺的五十年</h3>
+          <p>深度访谈一位老修表匠，镜头贴近工作台，把一枚机芯的拆解过程拆成七个步骤，兼顾知识科普与情感故事。</p>
+          <div class="eu-meta"><span class="eu-tag">人物访谈</span><span class="eu-tag is-coral">手作DIY</span><span>作者：周野</span><span>播放 8.3 万</span><span>点赞 3,971</span><span>收藏 1,842</span></div>
+        </div>
+        <div class="eu-video-actions">
+          <button class="eu-icon-btn" type="button" data-like>♡ 点赞</button>
+          <button class="eu-icon-btn" type="button" data-save>☆ 收藏</button>
+          <button class="eu-icon-btn" type="button" data-copy>复制链接</button>
+        </div>
+      </article>
+      <article class="eu-video-row">
+        <span class="eu-video-index">04</span>
+        <div>
+          <h3>《影像笔记》第 9 集：如何在阴天拍出高级质感</h3>
+          <p>从白平衡、色温到后期曲线，给出三套可直接套用的参数，适合手机与微单用户，含对照画面示范。</p>
+          <div class="eu-meta"><span class="eu-tag">教程干货</span><span class="eu-tag">创作幕后</span><span>作者：许一舟</span><span>播放 7.4 万</span><span>点赞 3,306</span><span>收藏 2,905</span></div>
+        </div>
+        <div class="eu-video-actions">
+          <button class="eu-icon-btn" type="button" data-like>♡ 点赞</button>
+          <button class="eu-icon-btn" type="button" data-save>☆ 收藏</button>
+          <button class="eu-icon-btn" type="button" data-comment>评论</button>
+        </div>
+      </article>
+      <article class="eu-video-row">
+        <span class="eu-video-index">05</span>
+        <div>
+          <h3>《城市中的安静》第 5 集：一座图书馆的午后</h3>
+          <p>治愈影像向内容，长镜头记录阅读室的光线变化，配以环境原声，适合作为工作背景声使用。</p>
+          <div class="eu-meta"><span class="eu-tag">治愈影像</span><span class="eu-tag">生活方式</span><span>作者：迟予</span><span>播放 6.9 万</span><span>点赞 2,988</span><span>收藏 2,441</span></div>
+        </div>
+        <div class="eu-video-actions">
+          <button class="eu-icon-btn" type="button" data-like>♡ 点赞</button>
+          <button class="eu-icon-btn" type="button" data-save>☆ 收藏</button>
+          <button class="eu-icon-btn" type="button" data-copy>复制链接</button>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- S4 专题企划 -->
+  <section class="eu-section" id="eu-topics">
+    <div class="eu-section-head">
+      <h2>专题企划 <small>EDITORIAL PROJECTS</small></h2>
+      <p class="eu-section-desc">欧洲久久美美干视频在线按季度推出的原创专题，围绕同一主题持续更新，欢迎创作者报名参与共创。</p>
+    </div>
+    <div class="eu-topics-grid">
+      <article class="eu-topic-card">
+        <figure><img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 480 270'%3E%3Crect width='480' height='270' fill='%232b4a5e'/%3E%3Ccircle cx='100' cy='70' r='30' fill='%23f5c542' opacity='0.8'/%3E%3Cpath d='M0 200 L100 140 L200 200 L300 130 L400 200 L480 160 V270 H0Z' fill='%23132636'/%3E%3Crect x='150' y='120' width='6' height='80' fill='%23eef3f6'/%3E%3Crect x='150' y='120' width='50' height='6' fill='%23eef3f6'/%3E%3C/svg%3E" alt="冬日站台专题封面，暮色中的欧式车站剪影" width="480" height="270"></figure>
+        <span class="eu-topic-status">更新中 · 06 支短片</span>
+        <h3>专题《冬日站台》</h3>
+        <p>以车站与站台为入口，记录冬季欧洲的流动人群与临时告别，全部为原创跟拍与授权拍摄。</p>
+        <ul class="eu-topic-items">
+          <li>《凌晨四点的候车厅》</li>
+          <li>《一张迟到三小时的票》</li>
+          <li>《行李比我更懂旅行》</li>
+        </ul>
+      </article>
+      <article class="eu-topic-card">
+        <figure><img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 480 270'%3E%3Crect width='480' height='270' fill='%23f5e9d5'/%3E%3Ccircle cx='130' cy='110' r='58' fill='%23e2614a' opacity='0.85'/%3E%3Crect x='250' y='70' width='170' height='120' rx='6' fill='%23c98a2c'/%3E%3Crect x='272' y='92' width='126' height='10' fill='%23f5e9d5'/%3E%3Crect x='272' y='118' width='90' height='10' fill='%23f5e9d5' opacity='0.7'/%3E%3Crect x='0' y='216' width='480' height='54' fill='%234c6473'/%3E%3C/svg%3E" alt="三个厨房专题封面，暖色餐桌与餐具构图" width="480" height="270"></figure>
+        <span class="eu-topic-status">更新中 · 04 支短片</span>
+        <h3>专题《三个厨房》</h3>
+        <p>把厨房当作文化现场，三位创作者在三个国家同一周记录一日三餐，讲究真实与可复制的烹饪经验。</p>
+        <ul class="eu-topic-items">
+          <li>《市场里的一小时采购》</li>
+          <li>《复刻一道家乡菜》</li>
+          <li>《一个人的周末晚餐》</li>
+        </ul>
+      </article>
+      <article class="eu-topic-card">
+        <figure><img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 480 270'%3E%3Crect width='480' height='270' fill='%23e0efe6'/%3E%3Cpath d='M0 220 L90 110 L180 220Z' fill='%233f7a5a'/%3E%3Cpath d='M150 220 L260 80 L370 220Z' fill='%231f7a4d'/%3E%3Cpath d='M330 220 L420 130 L480 220Z' fill='%234b8a63'/%3E%3Ccircle cx='400' cy='62' r='24' fill='%23f5c542'/%3E%3Crect x='0' y='220' width='480' height='50' fill='%23cfe0ea'/%3E%3C/svg%3E" alt="向高处走专题封面，层叠山脊与日出" width="480" height="270"></figure>
+        <span class="eu-topic-status is-soon">筹备中 · 报名开启</span>
+        <h3>专题《向高处走》</h3>
+        <p>面向户外创作者的共创企划，提供路线支持与拍摄指导，把徒步攻略与安全科普做成可长期检索的内容。</p>
+        <ul class="eu-topic-items">
+          <li>《初次上山的装备清单》</li>
+          <li>《天气窗口怎么判断》</li>
+          <li>《下撤比登顶更重要》</li>
+        </ul>
+      </article>
+    </div>
+  </section>
+
+  <!-- 关键词解析 800 字以上 -->
+  <section class="eu-section" id="eu-analysis">
+    <div class="eu-analysis">
+      <h2>关键词解析：欧洲久久美美干视频在线的内容逻辑</h2>
+      <p>这一部分由欧洲久久美美干视频在线编辑部撰写，面向新观众、合作企业与投稿创作者，说明我们如何理解欧洲影像、如何组织内容生态、以及为什么坚持原创与正版高清。以下内容基于平台近三年的实际运营数据与选题复盘，不含推广话术。</p>
+      <div class="eu-analysis-figure">
+        <figure>
+          <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 480 300'%3E%3Crect width='480' height='300' fill='%231d3b52'/%3E%3Crect x='40' y='40' width='180' height='12' fill='%23f5c542'/%3E%3Crect x='40' y='70' width='320' height='8' fill='%23cfe0ea' opacity='0.5'/%3E%3Crect x='40' y='92' width='260' height='8' fill='%23cfe0ea' opacity='0.35'/%3E%3Ccircle cx='330' cy='200' r='52' fill='none' stroke='%23f5c542' stroke-width='10'/%3E%3Ccircle cx='330' cy='200' r='52' fill='none' stroke='%23e2614a' stroke-width='10' stroke-dasharray='120 300' transform='rotate(-90 330 200)'/%3E%3Ctext x='40' y='250' font-family='sans-serif' font-size='20' fill='%23eef3f6'%3ECONTENT SYSTEM%3C/text%3E%3C/svg%3E" alt="欧洲久久美美干视频在线内容体系结构示意图" width="480" height="300">
+          <figcaption>内容体系示意：选题库、拍摄规范与审核流程三层结构。</figcaption>
+        </figure>
+        <figure>
+          <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 480 300'%3E%3Crect width='480' height='300' fill='%23eef3f6'/%3E%3Crect x='40' y='60' width='120' height='180' fill='%235b7f96'/%3E%3Crect x='180' y='100' width='120' height='140' fill='%23e2614a'/%3E%3Crect x='320' y='40' width='120' height='200' fill='%23c98a2c'/%3E%3Crect x='40' y='250' width='400' height='6' fill='%231d3b52'/%3E%3Ctext x='44' y='292' font-family='sans-serif' font-size='16' fill='%234c6473'%3EEUROPE / DATA%3C/text%3E%3C/svg%3E" alt="平台内容数据分布柱状图示意，用于关键词解析" width="480" height="300">
+          <figcaption>内容分布：城市探索、生活方式与人物访谈占比最高。</figcaption>
+        </figure>
+      </div>
+      <div class="eu-analysis-grid">
+        <div class="eu-analysis-block">
+          <h3>关键词里的三重含义</h3>
+          <p>「欧洲久久美美干视频在线」这个关键词表面由多个词拼接而成，但在我们的内容体系里，它对应三层清晰的含义：地域、时长与质感。地域指向欧洲现场，所有内容必须在真实地点拍摄，拒绝素材拼接与二次搬运；时长指向“久久”，我们倾向做 15 分钟以上的完整叙事，而不是只做十几秒的高光切片；质感指向“美美”与高清，从取景、收音到调色都有统一规范，保证每一条内容经得起在大屏上播放。这三层含义决定了平台的选题标准，也决定了我们为什么在垂直领域持续深耕。</p>
+          <p>很多观众第一次搜索这个词，是想找一段能长时间观看、画质稳定、内容真实的欧洲影像。因此站内所有重点条目都会给出明确的时长、拍摄地点与拍摄周期，用户不必点开才知道值不值得看。这样的信息透明，本身就是品牌口碑的一部分。</p>
+        </div>
+        <div class="eu-analysis-block">
+          <h3>内容如何被组织</h3>
+          <p>我们把内容分成四条主线：城市与在地文化、生活方式与日常记录、人物访谈与手作、旅行攻略与实用技巧。四条主线共用同一套拍摄规范，却在剪辑节奏上明显不同。城市线强调镜头语言与环境声；生活线强调日常细节与陪伴感；访谈线强调对话完整度，尽量少打断被访者；攻略线强调可操作性，每一个步骤都要能在画面里被复现。四条线在首页混排，但标签清晰，用户可按兴趣快速筛选。</p>
+          <p>为了让社区保持活力，平台每季度设立一个共创专题，开放报名与上传通道。参与者提交选题、样片与拍摄计划，通过初审后由编辑提供拍摄建议与设备支持，成片在官方渠道发布并同步署名。这一机制让创作者不只是投稿者，而是内容生态的共同建设者，也让平台在企业级品牌调性之外，保留足够的社区温度。</p>
+        </div>
+        <div class="eu-analysis-block">
+          <h3>原创与正版的底线</h3>
+          <p>欧洲影像内容最容易出现的问题是素材来源不清。我们的做法是：所有画面必须有原始拍摄记录，包括时间、地点与设备信息；音乐与字体必须取得授权或使用明确可商用的资源；涉及人物的镜头必须获得出镜同意。审核流程分为选题审、粗剪审与终审三道，任一环节发现问题即退回修改。这套流程让更新速度变慢，但换来了可持续的信任。</p>
+          <p>对合作企业而言，这样的底线意味着内容可以安心用于品牌宣传与线下展映；对普通观众而言，意味着不必担心看到搬运与拼贴。我们相信，值得信赖不是一句口号，而是由每一条视频的元信息、每一份授权文件与每一次公开更正共同累积出来的。</p>
+        </div>
+        <div class="eu-analysis-block">
+          <h3>数据、榜单与社区反馈</h3>
+          <p>平台每周更新热度榜、新人榜与口碑榜。热度榜看播放与完播，新人榜看首次发布后的互动质量，口碑榜则综合收藏率与评论情感倾向。三个榜单权重不同，避免只用播放量评价内容。我们也公开部分数据口径，让创作者知道自己的作品为什么上榜或落榜。</p>
+          <p>评论区同样是内容的一部分。每条重点视频下方保留长评与提问，编辑会定期整理高频问题，补充到攻略类内容的正文中。用户建议一旦被采纳，会在更新日志里注明来源。这种“被看见”的反馈循环，让社区成员愿意持续参与，也让平台的内容方向始终贴近真实需求。未来我们还将开放更多共创名额，欢迎有欧洲拍摄经验的创作者报名。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- S6 数据榜单 -->
+  <section class="eu-section" id="eu-rank">
+    <div class="eu-section-head">
+      <h2>数据榜单 <small>WEEKLY RANKING</small></h2>
+      <p class="eu-section-desc">欧洲久久美美干视频在线每周更新三类榜单，数据口径公开，欢迎创作者查看自己的位置。</p>
+    </div>
+    <div class="eu-rank-board">
+      <div class="eu-rank-col">
+        <h3><i></i>热度榜 · 本周</h3>
+        <ul class="eu-rank-list">
+          <li><span class="eu-rank-num">1</span><div><b>《在欧洲屋顶上醒来》第 3 集</b><span>播放 48.6 万 · 完播 71%</span></div></li>
+          <li><span class="eu-rank-num">2</span><div><b>《慢车票》第 12 集</b><span>播放 21.4 万 · 完播 64%</span></div></li>
+          <li><span class="eu-rank-num">3</span><div><b>《向高处走》第 6 集</b><span>播放 19.2 万 · 完播 58%</span></div></li>
+          <li><span class="eu-rank-num">4</span><div><b>《书店守夜人》</b><span>播放 16.8 万 · 完播 69%</span></div></li>
+          <li><span class="eu-rank-num">5</span><div><b>《冬日站台》首发篇</b><span>播放 12.8 万 · 完播 62%</span></div></li>
+        </ul>
+      </div>
+      <div class="eu-rank-col is-new">
+        <h3><i></i>新人榜 · 11 月</h3>
+        <ul class="eu-rank-list">
+          <li><span class="eu-rank-num">1</span><div><b>迟予</b><span>首月互动率 9.2%</span></div></li>
+          <li><span class="eu-rank-num">2</span><div><b>沈岸</b><span>首月互动率 8.4%</span></div></li>
+          <li><span class="eu-rank-num">3</span><div><b>陆知许</b><span>首月互动率 7.9%</span></div></li>
+          <li><span class="eu-rank-num">4</span><div><b>于青禾</b><span>首月互动率 7.1%</span></div></li>
+          <li><span class="eu-rank-num">5</span><div><b>白鹿</b><span>首月互动率 6.8%</span></div></li>
+        </ul>
+      </div>
+      <div class="eu-rank-col is-praise">
+        <h3><i></i>口碑榜 · 综合</h3>
+        <ul class="eu-rank-list">
+          <li><span class="eu-rank-num">1</span><div><b>《手工的耐心》系列</b><span>收藏率 18.6%</span></div></li>
+          <li><span class="eu-rank-num">2</span><div><b>《城市中的安静》系列</b><span>收藏率 16.2%</span></div></li>
+          <li><span class="eu-rank-num">3</span><div><b>《三个厨房》系列</b><span>收藏率 15.4%</span></div></li>
+          <li><span class="eu-rank-num">4</span><div><b>《影像笔记》系列</b><span>收藏率 14.7%</span></div></li>
+          <li><span class="eu-rank-num">5</span><div><b>《冬日站台》系列</b><span>收藏率 13.9%</span></div></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- S5 创作者矩阵 -->
+  <section class="eu-section" id="eu-authors">
+    <div class="eu-section-head">
+      <h2>创作者矩阵 <small>CREATORS</small></h2>
+      <p class="eu-section-desc">欧洲久久美美干视频在线签约与合作的创作者，覆盖城市、生活、手作与户外多个垂直方向。</p>
+    </div>
+    <div class="eu-authors-grid">
+      <article class="eu-author-card">
+        <div class="eu-avatar is-1" aria-hidden="true">林</div>
+        <div class="eu-author-body">
+          <div class="eu-author-name">林茉Mona <span class="eu-verify">官方认证</span></div>
+          <div class="eu-author-field">城市探索 · 影像纪录</div>
+          <p>常驻欧洲七年，擅长在清晨与黄昏拍摄城市空间。习惯先做三个月田野笔记再开机，作品节奏偏慢，但信息密度高。她认为纪录片的诚意体现在是否愿意等，而不是镜头有多花。目前负责《冬日站台》专题的主线拍摄。</p>
+          <div class="eu-author-stats"><span>作品 <b>86</b></span><span>粉丝 <b>24.1 万</b></span><span>收藏 <b>12.6 万</b></span></div>
+          <button class="eu-icon-btn" type="button" data-author="林茉Mona">查看作者介绍</button>
+        </div>
+      </article>
+      <article class="eu-author-card">
+        <div class="eu-avatar is-2" aria-hidden="true">顾</div>
+        <div class="eu-author-body">
+          <div class="eu-author-name">顾南 <span class="eu-verify">官方认证</span></div>
+          <div class="eu-author-field">美食烹饪 · 在地文化</div>
+          <p>从厨房学徒做到内容创作者，擅长把复杂菜谱拆成可执行步骤。拍摄时坚持一镜到底完成关键动作，方便观众对照学习。她关注食材背后的供应链与迁移故事，希望用一顿饭讲清一个地方的生活方式。</p>
+          <div class="eu-author-stats"><span>作品 <b>62</b></span><span>粉丝 <b>18.7 万</b></span><span>收藏 <b>9.8 万</b></span></div>
+          <button class="eu-icon-btn" type="button" data-author="顾南">查看作者介绍</button>
+        </div>
+      </article>
+      <article class="eu-author-card">
+        <div class="eu-avatar is-3" aria-hidden="true">周</div>
+        <div class="eu-author-body">
+          <div class="eu-author-name">周野 <span class="eu-verify">官方认证</span></div>
+          <div class="eu-author-field">人物访谈 · 手作纪录</div>
+          <p>记者出身，擅长长对话与细节观察。他拍人物有一个原则：先聊够两小时再开机，把被访者从“被拍摄”的状态里拉出来。近年专注手工艺与老店铺题材，作品多次入选平台年度口碑榜。</p>
+          <div class="eu-author-stats"><span>作品 <b>74</b></span><span>粉丝 <b>21.3 万</b></span><span>收藏 <b>11.4 万</b></span></div>
+          <button class="eu-icon-btn" type="button" data-author="周野">查看作者介绍</button>
+        </div>
+      </article>
+      <article class="eu-author-card">
+        <div class="eu-avatar is-4" aria-hidden="true">许</div>
+        <div class="eu-author-body">
+          <div class="eu-author-name">许一舟 <span class="eu-verify">官方认证</span></div>
+          <div class="eu-author-field">户外活动 · 实用技巧</div>
+          <p>户外领队转型创作者，熟悉欧洲多条徒步路线与季节风险。内容强调可操作与安全，每一集都会给出装备清单、时间窗口与下撤方案。他也负责平台的拍摄技术教程，讲解如何在恶劣天气下保持画面稳定。</p>
+          <div class="eu-author-stats"><span>作品 <b>58</b></span><span>粉丝 <b>16.2 万</b></span><span>收藏 <b>10.1 万</b></span></div>
+          <button class="eu-icon-btn" type="button" data-author="许一舟">查看作者介绍</button>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- S6 用户评价 -->
+  <section class="eu-section" id="eu-reviews">
+    <div class="eu-section-head">
+      <h2>用户评价 <small>COMMUNITY REVIEWS</small></h2>
+      <p class="eu-section-desc">来自社区成员的真实反馈，涵盖内容质量、观看体验与投稿合作等不同维度。</p>
+    </div>
+    <div class="eu-review-summary">
+      <div><b>4.8</b><span style="display:block;">综合评分 / 5</span></div>
+      <div class="eu-review-bars" aria-hidden="true">
+        <div class="eu-review-bar"><span>5 星</span><span class="eu-review-bar-track"><i style="width:82%"></i></span><span>82%</span></div>
+        <div class="eu-review-bar"><span>4 星</span><span class="eu-review-bar-track"><i style="width:13%"></i></span><span>13%</span></div>
+        <div class="eu-review-bar"><span>3 星</span><span class="eu-review-bar-track"><i style="width:4%"></i></span><span>4%</span></div>
+      </div>
+      <span>基于近 30 天 2,148 条有效评价</span>
+    </div>
+    <div class="eu-review-grid">
+      <article class="eu-review-card">
+        <div class="eu-review-head"><span class="eu-review-avatar" aria-hidden="true">陈</span><div><b>陈叙</b><span>· 观看 11 个月</span></div></div>
+        <p>画质和收音是真的稳定，尤其是《冬日站台》那种环境声，戴耳机看很舒服。唯一建议是希望添加按地区筛选，找某个国家的片子会更快。</p>
+        <div class="eu-review-stars">★★★★★</div>
+      </article>
+      <article class="eu-review-card">
+        <div class="eu-review-head"><span class="eu-review-avatar" aria-hidden="true">罗</span><div><b>罗一一</b><span>· 观看 3 个月</span></div></div>
+        <p>美食那几集按着做成功了两次，步骤给得很细，替代食材也写了。就是有时候想保存菜谱，希望收藏夹能分组。</p>
+        <div class="eu-review-stars">★★★★☆</div>
+      </article>
+      <article class="eu-review-card">
+        <div class="eu-review-head"><span class="eu-review-avatar" aria-hidden="true">Ke</span><div><b>Kevin 周</b><span>· 投稿创作者</span></div></div>
+        <p>投稿流程比想象中清楚，初审反馈给了具体时间点，还标注了镜头建议。作为新人，能被认真对待比流量更打动我。</p>
+        <div class="eu-review-stars">★★★★★</div>
+      </article>
+      <article class="eu-review-card">
+        <div class="eu-review-head"><span class="eu-review-avatar" aria-hidden="true">苏</span><div><b>苏禾</b><span>· 观看 2 年</span></div></div>
+        <p>喜欢你们不追热点的做法。有些内容看起来很慢，但过两年再翻出来看依然成立。希望品牌动态能写得更频繁一些。</p>
+        <div class="eu-review-stars">★★★★★</div>
+      </article>
+      <article class="eu-review-card">
+        <div class="eu-review-head"><span class="eu-review-avatar" aria-hidden="true">孟</span><div><b>孟知遥</b><span>· 观看 6 个月</span></div></div>
+        <p>户外那套装备清单帮我省了不少钱，按季节分了适用场景，讲清了为什么而不是只给清单。缺点是更新有点慢，等得着急。</p>
+        <div class="eu-review-stars">★★★★☆</div>
+      </article>
+      <article class="eu-review-card">
+        <div class="eu-review-head"><span class="eu-review-avatar" aria-hidden="true">方</span><div><b>方言</b><span>· 观看 8 个月</span></div></div>
+        <p>评论区氛围挺好，提问有人认真回答，编辑也会补充信息。就是搜索有时候匹配不够准，输入地名出来的结果偏少。</p>
+        <div class="eu-review-stars">★★★★☆</div>
+      </article>
+    </div>
+  </section>
+
+  <!-- S7 辅助区：灵感 + 动态 + 合作 -->
+  <section class="eu-section" id="eu-dynamics">
+    <div class="eu-section-head">
+      <h2>企业动态与创作支持 <small>NEWS &amp; TOOLS</small></h2>
+      <p class="eu-section-desc">欧洲久久美美干视频在线的官方更新、创作灵感与合作伙伴信息集中在这里。</p>
+    </div>
+    <div class="eu-duo">
+      <div class="eu-panel">
+        <h3><i></i>企业动态 · 官方发布</h3>
+        <ul class="eu-news-list">
+          <li>
+            <span class="eu-news-date">2026.11.22</span>
+            <b>《冬日站台》首批短片上线</b>
+            <p>共 6 支原创短片，覆盖四座城市，评论投票通道同步开启。</p>
+          </li>
+          <li>
+            <span class="eu-news-date">2026.11.15</span>
+            <b>创作者报名通道升级</b>
+            <p>新增样片预审与拍摄计划模板，初审反馈时间缩短至五个工作日。</p>
+          </li>
+          <li>
+            <span class="eu-news-date">2026.11.08</span>
+            <b>内容审核规范 2.0 发布</b>
+            <p>明确音视频授权与出镜同意的提交要求，减少反复修改。</p>
+          </li>
+          <li>
+            <span class="eu-news-date">2026.10.30</span>
+            <b>平台与三家影像机构达成合作</b>
+            <p>将在设备支持与线下展映方面展开长期合作，覆盖更多拍摄场景。</p>
+          </li>
+        </ul>
+      </div>
+      <div class="eu-panel">
+        <h3><i></i>创作灵感 · 脚本与剪辑建议</h3>
+        <ul class="eu-idea-list">
+          <li><b>选题切口：</b>把“去某个国家”换成“在这座城市连续三天同一时间拍同一扇窗”，主题立刻清晰。</li>
+          <li><b>标题建议：</b>用具体动作与时间点替代形容词，例如“凌晨四点，面包房第一炉出炉”。</li>
+          <li><b>剪辑思路：</b>先定一条环境声主线，再让旁白为画面服务，避免旁白信息压过现场声音。</li>
+          <li><b>拍摄清单：</b>出门前写下三个必拍镜头，其余交给现场，能显著减少素材冗余。</li>
+          <li><b>投稿技巧：</b>样片不需要全片，剪出 90 秒完整段落更容易看出叙事能力。</li>
+        </ul>
+        <div class="eu-partner-wall" style="margin-top:20px;">
+          <div class="eu-partner">北岸影像馆<span>设备支持</span></div>
+          <div class="eu-partner">城市档案馆<span>资料合作</span></div>
+          <div class="eu-partner">慢车旅行<span>路线支持</span></div>
+          <div class="eu-partner">手作联合社<span>共创伙伴</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- S7 FAQ -->
+  <section class="eu-section" id="eu-faq">
+    <div class="eu-section-head">
+      <h2>帮助中心 <small>FAQ</small></h2>
+      <p class="eu-section-desc">关于观看、投稿与合作的常见问题，如仍有疑问可通过页面底部联系方式与我们取得联系。</p>
+    </div>
+    <div class="eu-faq">
+      <details>
+        <summary>欧洲久久美美干视频在线的内容可以转载或二次使用吗？</summary>
+        <p>除特别标注外，平台内容版权归创作者与平台共同所有。个人学习场景下的短片段引用请注明来源；商业用途、二次剪辑或线下放映需提交授权申请，我们会根据使用场景给出明确答复，并在必要时提供授权文件。</p>
+      </details>
+      <details>
+        <summary>投稿需要满足什么条件？</summary>
+        <p>需要提供选题说明、拍摄计划与 90 秒以上样片，样片需为原创拍摄。平台不限制设备类型，手机拍摄同样可以通过初审，但画面稳定度、收音质量与信息完整度会作为评估重点。涉及人物出镜的素材需提交出镜同意说明。</p>
+      </details>
+      <details>
+        <summary>视频多久更新一次？</summary>
+        <p>常规内容每周二、周五更新，重点专题按期上线。更新节奏会根据拍摄周期调整，所有变更都会提前在公告条与企业动态中说明，避免观众空等。</p>
+      </details>
+      <details>
+        <summary>平台是否提供拍摄设备支持？</summary>
+        <p>对于通过专题共创初审的创作者，平台会提供基础设备支持与拍摄指导，包括稳定器、收音设备与备用存储。设备需按约定归还，损坏按协议处理，具体条款在报名邮件中说明。</p>
+      </details>
+      <details>
+        <summary>如何参与专题共创与投票？</summary>
+        <p>每季度专题上线时，页面会开放报名入口与投票区。报名需提交计划，投票则对所有注册用户开放，每人每日可投三票。投票结果不直接决定上线名单，但会作为选题优先级的重要参考。</p>
+      </details>
+      <details>
+        <summary>企业合作有哪些方式？</summary>
+        <p>目前提供内容定制、联合专题、线下展映与素材授权四类合作。我们更倾向于长期合作而非单次投放，合作前会有一次内容方向沟通，确保品牌调性与平台风格一致，避免影响社区体验。</p>
+      </details>
+    </div>
+  </section>
+
+  <!-- S7 联系投稿 -->
+  <section class="eu-section">
+    <div class="eu-contact">
+      <div>
+        <h2>联系欧洲久久美美干视频在线</h2>
+        <p>投稿请发送选题与样片链接；合作请说明使用场景与时间安排。</p>
+        <p>内容合作邮箱：partner@euro-image.example ｜ 投稿邮箱：create@euro-image.example</p>
+        <p>工作时间：周一至周五 10:00–19:00（GMT+8），节假日顺延。</p>
+      </div>
+      <div class="eu-contact-actions">
+        <button class="eu-btn eu-btn-primary" type="button" id="euSubmitOpen2">上传样片 / 我要投稿</button>
+        <button class="eu-btn eu-btn-ghost" type="button" data-share>分享本页给同好</button>
+        <button class="eu-btn eu-btn-ghost" type="button" data-report>反馈与举报</button>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- S8 页脚 -->
+<footer class="eu-footer">
+  <div class="eu-footer-inner">
+    <div>
+      <div class="eu-footer-brand">
+        <span class="eu-brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none"><path d="M8 5l10 7-10 7V5z" fill="#f5c542"/></svg>
+        </span>
+        欧洲久久美美干视频在线
+      </div>
+      <p>欧洲久久美美干视频在线官方网站 · 企业级视频品牌平台，专注欧洲原创高清影像内容，持续运营，深耕垂直领域，为创作者与观众搭建值得信赖的内容生态。</p>
+      <p>内容定位：城市探索、生活方式、人物访谈、户外攻略。所有内容均为原创或经授权发布。</p>
+    </div>
+    <div>
+      <h4>内容导航</h4>
+      <ul>
+        <li><a href="#eu-focus">焦点内容</a></li>
+        <li><a href="#eu-videos">视频内容</a></li>
+        <li><a href="#eu-topics">专题企划</a></li>
+        <li><a href="#eu-rank">数据榜单</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>社区与帮助</h4>
+      <ul>
+        <li><a href="#eu-authors">创作者矩阵</a></li>
+        <li><a href="#eu-reviews">用户评价</a></li>
+        <li><a href="#eu-faq">帮助中心</a></li>
+        <li><a href="#eu-dynamics">企业动态</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>官方说明</h4>
+      <ul>
+        <li>官方发布 / 正版高清</li>
+        <li>内容审核规范 2.0</li>
+        <li>投稿与授权流程</li>
+        <li>用户至上 · 社会责任</li>
+      </ul>
+    </div>
+  </div>
+  <div class="eu-footer-bottom">
+    <span>© 2026 欧洲久久美美干视频在线 版权所有 · 持续运营中</span>
+    <span>备案号：EU-VIDEO-2026-1108 · 本页为品牌官方网站示例内容</span>
+  </div>
+</footer>
+
+<button class="eu-top-btn" id="euTopBtn" type="button" aria-label="回到顶部">
+  <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+</button>
+
+<div class="eu-toast" id="euToast" role="status" aria-live="polite"></div>
+
+<div class="eu-modal-mask" id="euSubmitModal" role="dialog" aria-modal="true" aria-labelledby="euSubmitTitle">
+  <div class="eu-modal">
+    <button class="eu-modal-close" type="button" data-close-modal aria-label="关闭">×</button>
+    <h3 id="euSubmitTitle">投稿报名 · 欧洲久久美美干视频在线</h3>
+    <p>请填写基本信息，编辑将在五个工作日内通过邮件回复初审结果。</p>
+    <form id="euSubmitForm">
+      <div class="eu-modal-field">
+        <label for="euSubmitName">创作者名称</label>
+        <input type="text" id="euSubmitName" required placeholder="例如：林茉Mona">
+      </div>
+      <div class="eu-modal-field">
+        <label for="euSubmitTopic">选题方向</label>
+        <select id="euSubmitTopic">
+          <option>城市探索</option>
+          <option>生活方式</option>
+          <option>人物访谈</option>
+          <option>户外攻略</option>
+          <option>美食烹饪</option>
+        </select>
+      </div>
+      <div class="eu-modal-field">
+        <label for="euSubmitDesc">选题说明与样片链接</label>
+        <textarea id="euSubmitDesc" placeholder="说明拍摄地点、周期与目标观众，并附上样片地址" required></textarea>
+      </div>
+      <button class="eu-btn eu-btn-primary" type="submit" style="width:100%;justify-content:center;">提交报名</button>
+    </form>
+  </div>
+</div>
+
+<div class="eu-modal-mask" id="euAuthorModal" role="dialog" aria-modal="true" aria-labelledby="euAuthorTitle">
+  <div class="eu-modal">
+    <button class="eu-modal-close" type="button" data-close-modal aria-label="关闭">×</button>
+    <h3 id="euAuthorTitle">创作者介绍</h3>
+    <p id="euAuthorBody"></p>
+  </div>
+</div>
+
+<div class="eu-modal-mask" id="euCommentModal" role="dialog" aria-modal="true" aria-labelledby="euCommentTitle">
+  <div class="eu-modal">
+    <button class="eu-modal-close" type="button" data-close-modal aria-label="关闭">×</button>
+    <h3 id="euCommentTitle">写一条评论</h3>
+    <p>评论会展示在内容下方，编辑会定期整理高频问题补充进正文。</p>
+    <form id="euCommentForm">
+      <div class="eu-modal-field">
+        <label for="euCommentText">你的看法</label>
+        <textarea id="euCommentText" placeholder="说说你的观看感受或想看的选题" required></textarea>
+      </div>
+      <button class="eu-btn eu-btn-primary" type="submit" style="width:100%;justify-content:center;">发布评论</button>
+    </form>
+  </div>
+</div>
+
+<div class="eu-modal-mask" id="euReportModal" role="dialog" aria-modal="true" aria-labelledby="euReportTitle">
+  <div class="eu-modal">
+    <button class="eu-modal-close" type="button" data-close-modal aria-label="关闭">×</button>
+    <h3 id="euReportTitle">反馈与举报</h3>
+    <p>如发现内容授权问题或不当信息，请简要说明，我们会在三个工作日内核查。</p>
+    <form id="euReportForm">
+      <div class="eu-modal-field">
+        <label for="euReportText">问题描述</label>
+        <textarea id="euReportText" placeholder="请描述具体页面与问题类型" required></textarea>
+      </div>
+      <button class="eu-btn eu-btn-primary" type="submit" style="width:100%;justify-content:center;">提交反馈</button>
+    </form>
+  </div>
+</div>
+
+<script>
+(function(){
+  "use strict";
+
+  var toastEl = document.getElementById("euToast");
+  var toastTimer = null;
+  function showToast(msg){
+    if(!toastEl) return;
+    toastEl.textContent = msg;
+    toastEl.classList.add("is-on");
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(function(){
+      toastEl.classList.remove("is-on");
+    }, 2400);
+  }
+
+  /* 移动端导航 */
+  var navToggle = document.getElementById("euNavToggle");
+  var nav = document.getElementById("euNav");
+  if(navToggle && nav){
+    navToggle.addEventListener("click", function(){
+      var open = nav.classList.toggle("is-open");
+      navToggle.setAttribute("aria-expanded", open ? "true" : "false");
+    });
+    nav.addEventListener("click", function(e){
+      if(e.target.tagName === "A" && window.innerWidth <= 820){
+        nav.classList.remove("is-open");
+        navToggle.setAttribute("aria-expanded","false");
+      }
+    });
+  }
+
+  /* 搜索反馈 */
+  var searchInput = document.getElementById("euSearchInput");
+  var searchBtn = document.getElementById("euSearchBtn");
+  var searchFeedback = document.getElementById("euSearchFeedback");
+  var searchKeywords = ["冬日站台","三个厨房","向高处走","城市探索","美食","户外","人物访谈","旅行","欧洲","创作者","书店","站台"];
+  function doSearch(){
+    var kw = (searchInput && searchInput.value || "").trim();
+    if(!searchFeedback) return;
+    if(!kw){
+      searchFeedback.textContent = "请输入关键词后再搜索，例如：冬日站台";
+      searchFeedback.classList.add("is-on");
+      return;
+    }
+    var hit = searchKeywords.some(function(k){
+      return kw.indexOf(k) !== -1 || k.indexOf(kw) !== -1;
+    });
+    searchFeedback.textContent = hit
+      ? "已为你定位「" + kw + "」相关内容，可在焦点内容与专题企划中查看。"
+      : "暂未找到「" + kw + "」的直接结果，可尝试更短的关键词。";
+    searchFeedback.classList.add("is-on");
+  }
+  if(searchBtn) searchBtn.addEventListener("click", doSearch);
+  if(searchInput) searchInput.addEventListener("keydown", function(e){
+    if(e.key === "Enter"){ e.preventDefault(); doSearch(); }
+  });
+
+  /* 点赞 / 收藏 */
+  document.addEventListener("click", function(e){
+    var likeBtn = e.target.closest("[data-like]");
+    if(likeBtn){
+      var liked = likeBtn.classList.toggle("is-liked");
+      likeBtn.textContent = liked ? "♥ 已赞" : "♡ 点赞";
+      showToast(liked ? "已点赞，感谢支持原创内容" : "已取消点赞");
+      return;
+    }
+    var saveBtn = e.target.closest("[data-save]");
+    if(saveBtn){
+      var saved = saveBtn.classList.toggle("is-saved");
+      saveBtn.textContent = saved ? "★ 已收藏" : "☆ 收藏";
+      showToast(saved ? "已加入收藏夹" : "已取消收藏");
+      return;
+    }
+  });
+
+  /* 复制链接 */
+  function copyText(text){
+    if(navigator.clipboard && navigator.clipboard.writeText){
+      return navigator.clipboard.writeText(text);
+    }
+    return new Promise(function(resolve, reject){
+      try{
+        var ta = document.createElement("textarea");
+        ta.value = text;
+        ta.style.position = "fixed";
+        ta.style.opacity = "0";
+        document.body.appendChild(ta);
+        ta.select();
+        document.execCommand("copy");
+        document.body.removeChild(ta);
+        resolve();
+      }catch(err){ reject(err); }
+    });
+  }
+  document.addEventListener("click", function(e){
+    var btn = e.target.closest("[data-copy]");
+    if(!btn) return;
+    copyText("欧洲久久美美干视频在线 · 原创欧洲影像内容").then(function(){
+      showToast("内容标识已复制，可分享给同好");
+    }).catch(function(){
+      showToast("复制失败，请手动复制页面内容");
+    });
+  });
+
+  /* 分享提示 */
+  document.addEventListener("click", function(e){
+    var btn = e.target.closest("[data-share]");
+    if(!btn) return;
+    if(navigator.share){
+      navigator.share({title:"欧洲久久美美干视频在线", text:"欧洲原创高清影像内容平台"}).catch(function(){});
+    }else{
+      copyText("欧洲久久美美干视频在线 · 欧洲原创高清影像内容").then(function(){
+        showToast("链接已复制，可分享到微信或微博");
+      }).catch(function(){
+        showToast("可截图分享本页给同好");
+      });
+    }
+  });
+
+  /* 弹窗通用 */
+  var masks = document.querySelectorAll(".eu-modal-mask");
+  function closeAllModals(){
+    masks.forEach(function(m){ m.classList.remove("is-on"); });
+    document.body.style.overflow = "";
+  }
+  function openModal(id){
+    var m = document.getElementById(id);
+    if(!m) return;
+    m.classList.add("is-on");
+    document.body.style.overflow = "hidden";
+  }
+  masks.forEach(function(m){
+    m.addEventListener("click", function(e){
+      if(e.target === m) closeAllModals();
+    });
+  });
+  document.addEventListener("click", function(e){
+    if(e.target.closest("[data-close-modal]")) closeAllModals();
+  });
+  document.addEventListener("keydown", function(e){
+    if(e.key === "Escape") closeAllModals();
+  });
+
+  /* 投稿 */
+  var submitOpen = document.getElementById("euSubmitOpen");
+  var submitOpen2 = document.getElementById("euSubmitOpen2");
+  if(submitOpen) submitOpen.addEventListener("click", function(){ openModal("euSubmitModal"); });
+  if(submitOpen2) submitOpen2.addEventListener("click", function(){ openModal("euSubmitModal"); });
+  var submitForm = document.getElementById("euSubmitForm");
+  if(submitForm){
+    submitForm.addEventListener("submit", function(e){
+      e.preventDefault();
+      var name = (document.getElementById("euSubmitName").value || "").trim();
+      closeAllModals();
+      submitForm.reset();
+      showToast(name ? ("已收到「" + name + "」的报名，五个工作日内回复") : "报名已提交，五个工作日内回复");
+    });
+  }
+
+  /* 作者弹窗 */
+  var authorInfo = {
+    "林茉Mona":"常驻欧洲七年，城市探索与影像纪录创作者。代表作《在欧洲屋顶上醒来》《冬日站台》系列。拍摄前会做三个月田野笔记，个人风格强调等待与真实。",
+    "顾南":"美食烹饪与在地文化创作者，擅长把菜谱拆解为可执行步骤。代表作《三个厨房》《市场里的一小时》。关注食材背后的迁移故事。",
+    "周野":"人物访谈与手作纪录创作者，记者出身。代表作《手工的耐心》《书店守夜人》。坚持先聊两小时再开机，让被访者放松。",
+    "许一舟":"户外活动与实用技巧创作者，持证户外领队。代表作《向高处走》《影像笔记》。内容强调路线安全与装备可操作性。"
+  };
+  document.addEventListener("click", function(e){
+    var btn = e.target.closest("[data-author]");
+    if(!btn) return;
+    var name = btn.getAttribute("data-author");
+    var title = document.getElementById("euAuthorTitle");
+    var body = document.getElementById("euAuthorBody");
+    if(title) title.textContent = "创作者介绍 · " + name;
+    if(body) body.textContent = authorInfo[name] || "该创作者暂无更多公开资料。";
+    openModal("euAuthorModal");
+  });
+
+  /* 评论弹窗 */
+  document.addEventListener("click", function(e){
+    if(e.target.closest("[data-comment]")) openModal("euCommentModal");
+  });
+  var commentForm = document.getElementById("euCommentForm");
+  if(commentForm){
+    commentForm.addEventListener("submit", function(e){
+      e.preventDefault();
+      closeAllModals();
+      commentForm.reset();
+      showToast("评论已提交，通过审核后将展示在内容下方");
+    });
+  }
+
+  /* 举报反馈 */
+  document.addEventListener("click", function(e){
+    if(e.target.closest("[data-report]")) openModal("euReportModal");
+  });
+  var reportForm = document.getElementById("euReportForm");
+  if(reportForm){
+    reportForm.addEventListener("submit", function(e){
+      e.preventDefault();
+      closeAllModals();
+      reportForm.reset();
+      showToast("反馈已提交，三个工作日内核查");
+    });
+  }
+
+  /* 回到顶部 */
+  var topBtn = document.getElementById("euTopBtn");
+  window.addEventListener("scroll", function(){
+    if(!topBtn) return;
+    if(window.pageYOffset > 420){
+      topBtn.classList.add("is-on");
+    }else{
+      topBtn.classList.remove("is-on");
+    }
+  }, {passive:true});
+  if(topBtn){
+    topBtn.addEventListener("click", function(){
+      window.scrollTo({top:0, behavior:"smooth"});
+    });
+  }
+})();
+</script>
+</body>
+  </html>
